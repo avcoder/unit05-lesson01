@@ -16,8 +16,8 @@ transition: slide-left
 mdc: true
 ---
 
-# API Design + Wrap up
-Full-Stack Development - part 8/8
+# Intro to Algorithms and Structural Foundations
+Algorithms and Structural Foundations - part 1/8
 
 
 - [ ] Best Practices when Designing APIs
@@ -449,12 +449,10 @@ class: text-left
 # 10 minute break
 
 🍦 Cool Tips, Trends and Resources:
-- 🔵 [SVG Icons for popular brands](https://simpleicons.org/)
-- 🔄 [Modern CSS Reset](https://www.joshwcomeau.com/css/custom-css-reset/)
-- ⭐ [2024 JavaAscript Rising Stars](https://risingstars.js.org/2024/en)
-- 👨‍💻 [Computer Science Papers](https://newsletter.techworld-with-milan.com/p/computer-science-papers-every-developer)
-- 💾 [Intro to WebAssembly](https://hemath.dev/blog/webassembly/introduction-to-webassembly/)
-- 💽 [GraphQL: API Design](https://www.computer.org/publications/tech-news/trends/graphql)
+- [leetcode](https://leetcode.com/)
+- [hackerrank](https://www.hackerrank.com/)
+- [codeSignal](https://codesignal.com/)
+- [interviewBit](https://codesignal.com/)
 
 <br>
 <hr>
