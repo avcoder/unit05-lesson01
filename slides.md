@@ -46,7 +46,7 @@ transition: slide-left
    - The golden spheres are identical in weight, colour, texture etc... except 1 of the 8 is imperceptibly lighter than the others.  You're given a traditional balance scale?
    - What questions might you ask to clarify problem?
    - What steps would you do to find that odd one out?
-   - What is the maximum number of steps you would need to solve it?
+   - How many steps would you need to solve it?
 
 ---
 transition: slide-left
