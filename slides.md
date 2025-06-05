@@ -19,7 +19,6 @@ mdc: true
 # Intro to Algorithms and Data Structures
 Algorithms and Structural Foundations - part 1/8
 
-
 - [ ] Importance of data structures and algorithms
 - [ ] Computer Memory, Data Structures, Arrays
 - [ ] Bubble Sort
@@ -40,7 +39,9 @@ transition: slide-left
 # Preview
 
 - Lesson 1 to 4 will be theoritical fundamental concepts about algorithms and data structures
-- Lesson 4 to 8
+- Lesson 4 to 8 you'll get a development problem, and you'll have to gather resources , research, read and implement a possible solution.  
+- See DSA Assignment
+- [Big O cheatsheet](https://www.bigocheatsheet.com/)
 
 ---
 layout: image-right
@@ -57,6 +58,8 @@ class: text-left
 - 🕵️ [hackerrank](https://www.hackerrank.com/)
 - 🚦[codeSignal](https://codesignal.com/)
 - 📡 [interviewBit](https://codesignal.com/)
+- 🏫 [Harvard Algorithms Lecture](https://www.youtube.com/watch?v=iCx3zwK8Ms8)
+- 🏫 [Harvard Data Structures Lecture](https://www.youtube.com/watch?v=0euvEdPwQnQ&list=PLhQjrBD2T381WAHyx1pq-sBfykqMBI7V4&index=6)
 
 <br>
 <hr>
