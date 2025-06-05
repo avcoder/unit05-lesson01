@@ -21,7 +21,7 @@ Algorithms and Structural Foundations - part 1/8
 
 
 - [ ] Importance of data structures and algorithms
-- [ ] Sorting algorithm
+- [ ] Computer Memory, Data Structures, Arrays
 - [ ] Bubble Sort
 
 <div class="abs-br m-6 text-xl">
@@ -37,7 +37,10 @@ Algorithms and Structural Foundations - part 1/8
 transition: slide-left
 ---
 
-# What is good API design?
+# Preview
+
+- Lesson 1 to 4 will be theoritical fundamental concepts about algorithms and data structures
+- Lesson 4 to 8
 
 ---
 layout: image-right
