@@ -42,6 +42,8 @@ transition: slide-left
 - Lesson 4 to 8 you'll get a development problem, and you'll have to gather resources , research, read and implement a possible solution.  
 - See DSA Assignment
 - [Big O cheatsheet](https://www.bigocheatsheet.com/)
+- Interview Question: the 8 Golden Weighted Spheres
+   - The golden spheres are identical in weight, colour, texture etc... except 1 of the 8 is imperceptibly lighter than the others.  How do we find it given a traditional balance scale?
 
 ---
 transition: slide-left
