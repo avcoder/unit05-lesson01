@@ -44,6 +44,18 @@ transition: slide-left
 - [Big O cheatsheet](https://www.bigocheatsheet.com/)
 
 ---
+transition: slide-left
+---
+
+# Data Structures
+
+---
+transition: slide-left
+---
+
+# Arrays
+
+---
 layout: image-right
 transition: slide-left
 image: /assets/lydia.png
@@ -73,7 +85,13 @@ class: text-left
 transition: slide-left
 ---
 
-# Othe
+# Sorting
+
+---
+transition: slide-left
+---
+
+# Bubble Sort
 
 ---
 transition: slide-left
