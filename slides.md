@@ -41,12 +41,13 @@ transition: slide-left
 - Lesson 1 to 4 will be theoritical fundamental concepts about algorithms and data structures
 - Lesson 4 to 8 you'll get a development problem, and you'll have to gather resources , research, read and implement a possible solution.  
 - See DSA Assignment
-- [Big O cheatsheet](https://www.bigocheatsheet.com/)
 - Brain Teaser: the 8 Golden Weighted Spheres
    - The golden spheres are identical in weight, colour, texture etc... except 1 of the 8 is imperceptibly lighter than the others.  You're given a traditional balance scale?
    - What questions might you ask to clarify problem?
    - What steps would you do to find that odd one out?
    - How many steps would you need to solve it?
+- "Big O" Notation: Big O is a way to categorize your algorithm's time or memory requirements based on input.  It is meant to generalize growth of your algorithm.
+- [Big O cheatsheet](https://www.bigocheatsheet.com/)
 
 ---
 transition: slide-left
