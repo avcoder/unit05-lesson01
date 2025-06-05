@@ -16,13 +16,13 @@ transition: slide-left
 mdc: true
 ---
 
-# Intro to Algorithms and Structural Foundations
+# Intro to Algorithms and Data Structures
 Algorithms and Structural Foundations - part 1/8
 
 
-- [ ] Best Practices when Designing APIs
-- [ ] Practice API design
-- [ ] Midterm Q&A
+- [ ] Importance of data structures and algorithms
+- [ ] Sorting algorithm
+- [ ] Bubble Sort
 
 <div class="abs-br m-6 text-xl">
   <a href="https://github.com/slidevjs/slidev" target="_blank" class="slidev-icon-btn">
