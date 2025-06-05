@@ -441,18 +441,18 @@ transition: slide-left
 ---
 layout: image-right
 transition: slide-left
-image: /assets/api.png
-backgroundSize: 400px 270px
+image: /assets/lydia.png
+backgroundSize: 400px 330px
 class: text-left
 ---
 
 # 10 minute break
 
 🍦 Cool Tips, Trends and Resources:
-- [leetcode](https://leetcode.com/)
-- [hackerrank](https://www.hackerrank.com/)
-- [codeSignal](https://codesignal.com/)
-- [interviewBit](https://codesignal.com/)
+- 💻 [leetcode](https://leetcode.com/)
+- 🕵️ [hackerrank](https://www.hackerrank.com/)
+- 🚦[codeSignal](https://codesignal.com/)
+- 📡 [interviewBit](https://codesignal.com/)
 
 <br>
 <hr>
@@ -507,7 +507,6 @@ transition: slide-left
 # Exercise: Design API endpoints
 
 - Pick a social media app you use and observe the UI on how to make a post.  For example:
-<img src="/assets/twitter.png">
 - Putting everything you've learned in this unit together, create an express app that provides  JSON via API endpoints for the app you've chosen (no ejs)
 - Create API endpoints that will take care of any CRUD operations necessary to make a post
 - ex: In my twitter screenshot, I have to think about getting/posting text, images, gifs, polls etc.
