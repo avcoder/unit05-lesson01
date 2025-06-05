@@ -43,8 +43,10 @@ transition: slide-left
 - See DSA Assignment
 - [Big O cheatsheet](https://www.bigocheatsheet.com/)
 - Brain Teaser: the 8 Golden Weighted Spheres
-   - The golden spheres are identical in weight, colour, texture etc... except 1 of the 8 is imperceptibly lighter than the others.  How do we find it given a traditional balance scale?
-
+   - The golden spheres are identical in weight, colour, texture etc... except 1 of the 8 is imperceptibly lighter than the others.  You're given a traditional balance scale?
+   - What questions might you ask to clarify problem?
+   - What steps would you do to find that odd one out?
+   
 ---
 transition: slide-left
 ---
