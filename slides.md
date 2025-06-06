@@ -76,11 +76,12 @@ transition: slide-left
    - Picking the right data structure makes your app faster and more memory-efficient
 2. Improves App performance
    - at first you may be using arrays for filtering a list of thousands, showing recent notifications, sorting large sets etc., but without knowing better structures (ex: tries, heaps, sets), your app can slow down as it grows
-   - React's virtual DOM is a tree, Browser rending uses stacks and queues
+   - ex: React's virtual DOM is a tree, Browser rending uses stacks and queues
 3. Enables problem solving
    - Data structures provide the foundation you build solutions on top of and are essential to solving algorithmic problems (sorting, searching, pathfinding etc.)
 4. Needed for Job Interviews
-   - may be asked to solve coding hallenges and/or analyze time and space complexity and/or choose the right data structure
+   - may be asked to solve coding challenges: Big O + choose the right data structure
+- Example Data Structures: array, linked list, stack, queue, binary tree, hash table, graph etc.
 
 ---
 transition: slide-left
