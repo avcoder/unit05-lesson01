@@ -117,14 +117,36 @@ transition: slide-left
 transition: slide-left
 ---
 
-# 3. Basic Electronic Memory
+# 3. Electronic Memory
 
 - Imagine a room where a light switch turns on a fan. Once the fan is running, it blows on a switch that keeps itself turned on. That’s the feedback loop — once activated, the circuit maintains itself.
 - Understand electronics (controlling and manipulating electricity using components)   
    - Watch 30 sec of https://www.youtube.com/watch?v=I0-izyq6q5s#t=0m35s
    - So there is an electronic way to remember state (on/off) 
    - Continue watching until 2:30 to learn more about logic gates
-- Q: Now that we can get electronics to remember state (on/off), can we represent numbers? 
+- Q: Now that we can get electronics to remember state (on/off), can we represent data with it? 
+   - ex: if 1 represents `on`, `off` represents 0 -- how many numeral possibilities can we represent with only one `bit`?  How about with two `bits`?
+
+---
+transition: slide-left
+---
+
+# 4. Binary
+
+<img src="/assets/binary1.jpg" width="500">
+
+- 8 bits = 1 byte
+- What's the maximum number 1 byte can hold?
+- Does that max value remind you of anything?
+- Now that can group together 8 bits
+
+---
+transition: slide-left
+---
+
+# 4. Binary
+
+
 
 ---
 layout: image-right
