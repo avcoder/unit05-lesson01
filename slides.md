@@ -209,6 +209,8 @@ int main() {
 }
 ```
 
+- try changing data type from `char` to `int` or some other data type
+
 ---
 layout: image-right
 transition: slide-left
