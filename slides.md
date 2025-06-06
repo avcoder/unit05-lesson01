@@ -166,7 +166,7 @@ transition: slide-left
    - Watch 1 minute of: https://www.youtube.com/watch?v=7J7X7aZvMXQ#t=0m43s
    - Watch 2 minutes of: https://www.youtube.com/watch?v=7J7X7aZvMXQ#t=12m09sdram
 <img src="/assets/dram.png" width="300">
-- We now have a visual, physical understanding of our "canvas" from which can we can place our data (and data structures) in.
+- We now have a physical understanding of memory where data (and data structures) can reside
 
 ---
 layout: image-right
