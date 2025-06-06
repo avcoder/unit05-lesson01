@@ -193,6 +193,7 @@ transition: slide-left
 # Exercise: Visualizing Memory in C
 
 ```c
+// hello.c
 #include <stdio.h>
 
 int main() {
@@ -209,7 +210,10 @@ int main() {
 }
 ```
 
+- to compile run `gcc hello.c` which produces an executable named `a.out`
+- run it `./a.out`
 - try changing data type from `char` to `int` or some other data type
+- FYI: Run `otool -tV a.out` to see how code turns into assembly / bytes 
 
 ---
 layout: image-right
