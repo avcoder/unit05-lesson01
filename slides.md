@@ -96,34 +96,35 @@ You can't have data, without any structure to put it in
 transition: slide-left
 ---
 
-# Electricity
+# 1. Electricity
 
-1. Understand basic electricity (series vs parallel circuits, voltage, current etc.)
+- Understand basic electricity (series vs parallel circuits, voltage, current etc.)
    - ex: Switch a light > turns on the light
 <img src="/assets/switch.jpg">
 - Q: Can we control or manipulate basic electricity?
-- A: Yes via electronics
 
 ---
 transition: slide-left
 ---
 
-# Electronics
+# 2. Electronics
 
-2. Understand [logic gates](https://cdn.hackaday.io/images/4418491493663144277.jpg) / truth tables
-<img src="/assets/truth.png" width="500">
+- Understand [logic gates / truth tables](https://images.theengineeringprojects.com/image/webp/2023/08/symbols-truth-tables-of-common-logic-gates.jpg.webp?ssl=1)
+<img src="/assets/truth.jpg" width="500">
+- Q: Now that we can manipulate electricity, can we use electronic components to remember (on/off)?
 
 ---
 transition: slide-left
 ---
 
-# Computer Memory
+# 3. Basic Electronic Memory
 
 - Imagine a room where a light switch turns on a fan. Once the fan is running, it blows on a switch that keeps itself turned on. That’s the feedback loop — once activated, the circuit maintains itself.
-2. Understand electronics (controlling and manipulating electricity using components)   
+- Understand electronics (controlling and manipulating electricity using components)   
    - Watch 30 sec of https://www.youtube.com/watch?v=I0-izyq6q5s#t=0m35s
    - So there is an electronic way to remember state (on/off) 
    - Continue watching until 2:30 to learn more about logic gates
+- Q: Now that we can get electronics to remember state (on/off), can we represent numbers? 
 
 ---
 layout: image-right
