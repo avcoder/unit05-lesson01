@@ -216,6 +216,31 @@ int main() {
 - FYI: Run `otool -tV a.out` to see how code turns into assembly / bytes 
 
 ---
+transition: slide-left
+---
+
+# Data Structures: Arrays
+
+- We are now at a point to talk about our first data structure -- arrays
+- Q: How might an array be naturally arranged in memory blocks?
+- Q: Given the following declaration, how might you locate/arrange this array in memory?
+  ```c
+  #include <stdio.h>
+
+  void main() {
+    int numbers[3] = {10, 20, 30};
+    return;
+  }
+  ```
+
+- Q: Given numbers array above, and base address = 2000, what is the address of array[2]
+   - Prove it in C
+
+<!--
+- contiguous
+-->
+
+---
 layout: image-right
 transition: slide-left
 image: /assets/lydia.png
