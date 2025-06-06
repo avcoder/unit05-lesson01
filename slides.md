@@ -160,6 +160,7 @@ transition: slide-left
 ---
 
 # 5. Computer Memory
+Storage space in a computer where data and instructions are stored
 
 - According to Moore's Law, we should be able to double our electronics component will double in capacity each year
 - Q: What does computer memory look like today?
@@ -167,10 +168,21 @@ transition: slide-left
    - Watch 2 minutes of: https://www.youtube.com/watch?v=7J7X7aZvMXQ#t=12m09sdram
 <img src="/assets/dram.png" width="300">
 - We now have a physical understanding of memory where data (and data structures) can reside
-- RAM (Random Access Memory) vs ROM (Read Only Memory)
 - `Addresses` are used to identify a particular memory block where data resides
-- Definition: Storage space in a computer where data and instructions are stored
-- Analogy: Think of memory as a row of numbered mailboxes, each holding one bit of data
+
+---
+transition: slide-left
+---
+
+# Exercise: Visualizing Memory
+Given the following memory cell with its address and its corresponding value
+
+| Address | Value |
+| ------- | ----- |
+| 1000    | 8     |
+| 1001    | 10     |
+| 1002    | 64     |
+| 1003    | 255    |
 
 
 ---
