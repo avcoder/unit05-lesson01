@@ -184,7 +184,7 @@ Given the following memory cell with its address and its corresponding char
 | 1002    | Z    |
 
 - Q: What binary value is stored at address 1000?
-- Q: If an integer takes 4 bytes and starts at address 1003, what are the addresses it occupies?
+- Q: If an integer takes 4 bytes and starts at address 1010, what are the addresses it occupies?
 
 ---
 layout: image-right
