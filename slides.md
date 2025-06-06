@@ -139,16 +139,29 @@ transition: slide-left
 
 - 8 bits = 1 byte
 - What's the maximum number 1 byte can hold?
-- Does that max value remind you of anything?
-- Now that can group together 8 bits
+   - Does that max value remind you of anything?  (hint: [hexadecimal](https://miro.medium.com/v2/resize:fit:1400/1*xngYaMqb1JL6PaTb8NXDpA.jpeg))
+   - What if we wanted to hold bigger numbers? (see: [data types in C](https://fastbitlab.com/wp-content/uploads/2022/05/Figure-1.png))
+- Now that can represent numbers with 8 bits, can we represent letters?
 
 ---
 transition: slide-left
 ---
 
-# 4. Binary
+# 4b. ASCII
 
+<img src="/assets/ascii.png" width="470">
 
+---
+transition: slide-left
+---
+
+# 5. Computer Memory
+
+- According to Moore's Law, we should be able to double our electronics component will double in capacity each year
+- Q: What does computer memory look like today?
+   - Watch 1 minute of: https://www.youtube.com/watch?v=7J7X7aZvMXQ#t=0m43s
+   - Watch 2 minutes of: https://www.youtube.com/watch?v=7J7X7aZvMXQ#t=12m09s
+- We now have a visual, physical understanding of our "canvas" from which can we can place our data (and data structures) in.
 
 ---
 layout: image-right
