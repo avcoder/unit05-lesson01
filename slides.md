@@ -187,6 +187,29 @@ Given the following memory cell with its address and its corresponding char
 - Q: If an integer takes 4 bytes and starts at address 1010, what are the addresses it occupies?
 
 ---
+transition: slide-left
+---
+
+# Exercise: Visualizing Memory in C
+
+```c
+#include <stdio.h>
+
+int main() {
+  printf("Hello world\n");
+
+  char a = 'A';
+  char b = 'a';
+  char c = 'Z';
+  printf("size of %zu\n", sizeof(a)); // output how many bytes this data type uses
+  printf("Address is: %p\n", &a); // output the hexadecimal memory address
+  printf("which in decimal is %lu\n", (unsigned long)(uintptr_t)&a); // convert address to decimal
+
+  return 0;
+}
+```
+
+---
 layout: image-right
 transition: slide-left
 image: /assets/lydia.png
