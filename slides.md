@@ -151,6 +151,10 @@ transition: slide-left
 
 <img src="/assets/ascii.png" width="470">
 
+<!--
+- Do you now understand why sorting always thinks capitals comes before lower case letters?
+-->
+
 ---
 transition: slide-left
 ---
@@ -160,7 +164,8 @@ transition: slide-left
 - According to Moore's Law, we should be able to double our electronics component will double in capacity each year
 - Q: What does computer memory look like today?
    - Watch 1 minute of: https://www.youtube.com/watch?v=7J7X7aZvMXQ#t=0m43s
-   - Watch 2 minutes of: https://www.youtube.com/watch?v=7J7X7aZvMXQ#t=12m09s
+   - Watch 2 minutes of: https://www.youtube.com/watch?v=7J7X7aZvMXQ#t=12m09sdram
+<img src="/assets/dram.png" width="300">
 - We now have a visual, physical understanding of our "canvas" from which can we can place our data (and data structures) in.
 
 ---
