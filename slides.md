@@ -227,9 +227,9 @@ transition: slide-left
   ```c
   #include <stdio.h>
 
-  void main() {
+  int main() {
     int numbers[3] = {10, 20, 30};
-    return;
+    return 0;
   }
   ```
 
