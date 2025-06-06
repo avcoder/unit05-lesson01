@@ -16,7 +16,7 @@ transition: slide-left
 mdc: true
 ---
 
-# Intro to Algorithms and Data Structures
+# Algorithms and Data Structures
 Algorithms and Structural Foundations - part 1/8
 
 - [ ] Importance of data structures and algorithms
@@ -39,7 +39,7 @@ transition: slide-left
 # Preview
 
 - Lesson 1 to 4 will be theoritical fundamental concepts about algorithms and data structures
-- Lesson 4 to 8 you'll get a development problem, and you'll have to gather resources , research, read and implement a possible solution.  
+- Lesson 5 to 8 you'll get a development problem, and you'll have to gather resources , research, read and implement a possible solution.  
 - See DSA Assignment
 - Brain Teaser: the 8 Golden Weighted Spheres
    - The golden spheres are identical in weight, colour, texture etc... except 1 of the 8 is imperceptibly lighter than the others.  You're given a traditional balance scale?
@@ -47,19 +47,46 @@ transition: slide-left
    - What steps would you do to find that odd one out?
    - How many steps would you need to solve it?
 - "Big O" Notation: Big O is a way to categorize your algorithm's time or memory requirements based on input.  It is meant to generalize growth of your algorithm.
+
+
+---
+transition: slide-left
+---
+
+# Importance of Algorithms
+
+- You need a way to determine with certainty if the coding instructions you've written to solve a problem is more efficient and scalable over other alternatives
+- Examples include:
+   - when searching and filtering large data sets
+   - managing queues like chat apps, job queues
+   - implementing features like autocomplete, recommendation systems, or calendar schedulers
+- "But I just ask the DB to filter/search for me so why learn DSA?"
+   - You'll still need to understand performance by knowing when a search is efficient
+   - Plus you often work with data after the db such as combining multiple data sources in the browser 
+ - As you build real-time features, personalized recommendations, analytics dashboards, you move beyond CRUD into an area where efficient algorithms matter
 - [Big O cheatsheet](https://www.bigocheatsheet.com/)
 
 ---
 transition: slide-left
 ---
 
-# Data Structures
+# Importance of Data Structures
+
+1. Different problems require different ways of organizing and accessing data
+   - Picking the right data structure makes your app faster and more memory-efficient
+2. Improves App performance
+   - at first you may be using arrays for filtering a list of thousands, showing recent notifications, sorting large sets etc., but without knowing better structures (ex: tries, heaps, sets), your app can slow down as it grows
+   - React's virtual DOM is a tree, Browser rending uses stacks and queues
+3. Enables problem solving
+   - Data structures provide the foundation you build solutions on top of and are essential to solving algorithmic problems (sorting, searching, pathfinding etc.)
+4. Needed for Job Interviews
+   - may be asked to solve coding hallenges and/or analyze time and space complexity and/or choose the right data structure
 
 ---
 transition: slide-left
 ---
 
-# Arrays
+# Computer Memory
 
 ---
 layout: image-right
