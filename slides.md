@@ -210,8 +210,8 @@ int main() {
 }
 ```
 
-- to compile run `gcc hello.c` which produces an executable named `a.out`
-- run it `./a.out`
+- to compile run `gcc hello.c` which produces an executable named `a.out`; run `./a.out`
+- fyi - did you know if statements can be converted using logic gates?
 - try changing data type from `char` to `int` or some other data type
 - FYI: Run `otool -tV a.out` to see how code turns into assembly / bytes 
 
@@ -233,8 +233,7 @@ transition: slide-left
   }
   ```
 
-- Q: Given numbers array above, and base address = 2000, what is the address of array[2]
-   - Prove it in C
+- Q: Given numbers array above, and base address = 2000, what is the address of array[2] 
 - Q: Note that in C, we have to declare arrays with a predefined length - why?
 - Q: How easy/difficult would it be to insert a new element at the beginning of the array?
 
