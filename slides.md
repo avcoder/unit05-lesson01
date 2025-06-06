@@ -85,9 +85,43 @@ transition: slide-left
 
 ---
 transition: slide-left
+layout: center
+class: text-center
+---
+
+# How does Computer Memory Work?
+You can't have data, without any structure to put it in
+
+---
+transition: slide-left
+---
+
+# Electricity
+
+1. Understand basic electricity (series vs parallel circuits, voltage, current etc.)
+   - ex: Switch a light > turns on the light
+<img src="/assets/switch.jpg">
+
+---
+transition: slide-left
+---
+
+# Electronics
+
+2. Understand AND, OR, NOT gates / truth tables
+<img src="/assets/truth.png" width="500">
+
+---
+transition: slide-left
 ---
 
 # Computer Memory
+
+- Imagine a room where a light switch turns on a fan. Once the fan is running, it blows on a switch that keeps itself turned on. That’s the feedback loop — once activated, the circuit maintains itself.
+2. Understand electronics (controlling and manipulating electricity using components)   
+   - Watch 30 sec of https://www.youtube.com/watch?v=I0-izyq6q5s#t=0m35s
+   - So there is an electronic way to remember state (on/off) 
+   - Continue watching until 2:30 to learn more about logic gates
 
 ---
 layout: image-right
