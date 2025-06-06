@@ -124,10 +124,10 @@ transition: slide-left
    - Watch 30 sec of https://www.youtube.com/watch?v=I0-izyq6q5s#t=0m35s
    - So there is an electronic way to remember state (on/off) 
    - Continue watching until 2:30 to learn more about logic gates
-- Q: Now that we can get electronics to remember state (on/off), can we represent data with it? 
-   - ex: if 1 represents `on`, `off` represents 0 
+   - Q: if 1 represents `on`, and 0 represents `off`: 
       - How many numeral possibilities can we represent with only one `bit`?  
       - How about with two `bits`?
+- Q: Now that we can get electronics to remember state (on/off), can we represent numbers with it? 
 
 ---
 transition: slide-left
