@@ -180,10 +180,11 @@ Given the following memory cell with its address and its corresponding value
 | Address | Value |
 | ------- | ----- |
 | 1000    | 8     |
-| 1001    | 10     |
-| 1002    | 64     |
-| 1003    | 255    |
+| 1001    | 1     |
+| 1002    | 255    |
 
+- Q: What value is stored at address 1001?
+- Q: If an integer takes 4 bytes and starts at address 1003, what are the addresses it occupies?
 
 ---
 layout: image-right
