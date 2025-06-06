@@ -101,6 +101,8 @@ transition: slide-left
 1. Understand basic electricity (series vs parallel circuits, voltage, current etc.)
    - ex: Switch a light > turns on the light
 <img src="/assets/switch.jpg">
+- Q: Can we control or manipulate basic electricity?
+- A: Yes via electronics
 
 ---
 transition: slide-left
@@ -108,7 +110,7 @@ transition: slide-left
 
 # Electronics
 
-2. Understand AND, OR, NOT gates / truth tables
+2. Understand [logic gates](https://cdn.hackaday.io/images/4418491493663144277.jpg) / truth tables
 <img src="/assets/truth.png" width="500">
 
 ---
