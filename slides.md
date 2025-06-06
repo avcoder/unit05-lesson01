@@ -175,15 +175,15 @@ transition: slide-left
 ---
 
 # Exercise: Visualizing Memory
-Given the following memory cell with its address and its corresponding value
+Given the following memory cell with its address and its corresponding char
 
 | Address | Value |
 | ------- | ----- |
-| 1000    | 8     |
-| 1001    | 1     |
-| 1002    | 255    |
+| 1000    | A     |
+| 1001    | a     |
+| 1002    | Z    |
 
-- Q: What value is stored at address 1001?
+- Q: What binary value is stored at address 1000?
 - Q: If an integer takes 4 bytes and starts at address 1003, what are the addresses it occupies?
 
 ---
