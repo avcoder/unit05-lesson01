@@ -40,7 +40,7 @@ transition: slide-left
 
 - Lesson 1 to 4 will be theoritical fundamental concepts about algorithms and data structures
 - Lesson 5 to 8 you'll get a development problem, and you'll have to gather resources , research, read and implement a possible solution.  
-- See DSA Assignment
+- See DSA Assignment in LMS
 - Brain Teaser: the 8 Golden Weighted Spheres
    - The golden spheres are identical in weight, colour, texture etc... except 1 of the 8 is imperceptibly lighter than the others.  You're given a traditional balance scale?
    - What questions might you ask to clarify problem?
@@ -214,6 +214,59 @@ int main() {
 - fyi - did you know if statements can be converted using logic gates?
 - try changing data type from `char` to `int` or some other data type
 - FYI: Run `otool -tV a.out` to see how code turns into assembly / bytes 
+
+---
+transition: slide-left
+---
+
+# Linear Data Structures
+
+| Data Structure  | Description                                                   | Common Use Cases                        |
+| --------------- | ------------------------------------------------------------- | --------------------------------------- |
+| **Array**       | Fixed-size, indexed sequence of elements in contiguous memory | Lookup by index, static lists           |
+| **Linked List** | Sequential nodes with pointers (single or double)             | Dynamic memory, insert/delete in middle |
+| **Stack**       | LIFO (Last-In, First-Out)                                     | Undo, parsing, expression evaluation    |
+| **Queue**       | FIFO (First-In, First-Out)                                    | Task scheduling, buffering              |
+| **Deque**       | Double-ended queue (insert/remove at both ends)               | Sliding window problems, caching        |
+
+---
+transition: slide-left
+---
+
+# Tree Data Structures
+
+| Data Structure                  | Description                         | Common Use Cases                      |
+| ------------------------------- | ----------------------------------- | ------------------------------------- |
+| **Binary Tree**                 | Each node has at most 2 children    | Basic hierarchical structures         |
+| **Binary Search Tree (BST)**    | Left < Root < Right                 | Sorted data, searching, range queries |
+| **AVL Tree / Red-Black Tree**   | Self-balancing BSTs                 | Fast insert/delete/search             |
+| **Heap (Min/Max Heap)**         | Tree-based priority queue           | Scheduling, top-K elements            |
+| **Trie (Prefix Tree)**          | Tree for string prefixes            | Autocomplete, spell-check             |
+| **Segment Tree / Fenwick Tree** | Trees for range queries and updates | Competitive programming, analytics    |
+
+
+---
+transition: slide-left
+---
+
+# Hash Data Structures
+
+| Data Structure            | Description                        | Common Use Cases                  |
+| ------------------------- | ---------------------------------- | --------------------------------- |
+| **Hash Table / Hash Map** | Key-value pairs with hash function | Fast lookup, dictionaries         |
+| **Hash Set**              | Stores unique values using hashing | Membership testing, deduplication |
+
+---
+transition: slide-left
+---
+
+# Graph Data Structures
+
+| Data Structure                      | Description                              | Common Use Cases                     |
+| ----------------------------------- | ---------------------------------------- | ------------------------------------ |
+| **Graph (Adjacency List / Matrix)** | Nodes and edges (directed or undirected) | Networks, maps, relationships        |
+| **Weighted Graph**                  | Edges have costs                         | Shortest path (Dijkstra, A\*)        |
+| **Disjoint Set (Union-Find)**       | Tracks connected components              | Kruskal’s algorithm, social networks |
 
 ---
 transition: slide-left
