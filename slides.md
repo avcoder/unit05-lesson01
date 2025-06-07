@@ -424,7 +424,7 @@ A sorting algorithm arranges elements in a particular order (ascending/descendin
    - Data organization (ex: showing search results)
    - Optimizing performance in many systems (ex: databases)
 
-- Sort the following array of numbers: https://excalidraw.com/ 
+- What algorithm might you use to sort this array of numbers: https://excalidraw.com/ 
   - think Golden Spheres challenge
 <img src="/assets/unsorted.png" width="400">
 - Unlike human eyes/intelligence, what is the only way a computer can "see" an array element's value?
