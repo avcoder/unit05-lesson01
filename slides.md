@@ -438,7 +438,7 @@ transition: slide-left
 - Try the following sorting algorithm by hand on excalidraw:
 ```js
 // pseudocode
-repeat (n - 1) times:
+repeat array.length times:
    for each pair of adjacent elements:
       if left > right:
          swap them
@@ -446,7 +446,7 @@ repeat (n - 1) times:
 
 - Q: After each loop, what "bubbles" to the end of the array?
 - Q: When I swapped elements, I had to move the image to another spot -- what's the equivalent in code?
-- Q: How would you take the above pseudocode and turn it into actual JS code?
+- Exercise: Turn above pseudocode into actual JS code
 
 ---
 transition: slide-left
