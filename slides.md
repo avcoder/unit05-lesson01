@@ -447,6 +447,10 @@ repeat array.length times:
 - Q: After each loop, what "bubbles" to the end of the array?
 - Q: When I swapped elements, I had to move the image to another spot -- what's the equivalent in code?
 - Exercise: Turn above pseudocode into actual JS code
+- Q: What is Big O for bubble sort in terms of time?
+   - look for the loops
+- Q: What is Big O for bubble sort in terms of space?
+   - Does it require extra memory that grows with the size of the input?
 
 ---
 transition: slide-left
