@@ -341,6 +341,70 @@ transition: slide-left
 
 
 ---
+transition: slide-left
+---
+
+# Implement an array of Primitive variables
+
+```js
+// Array of integers
+const numbers = [10, 20, 30];
+numbers.push(40);             // Add a value
+numbers[1] = 25;              // Update value at index 1
+console.log("Numbers:", numbers);
+
+// Array of strings
+const fruits = ["apple", "banana", "cherry"];
+fruits.unshift("mango");     // Add to beginning
+fruits.splice(2, 1);         // Remove element at index 2
+console.log("Fruits:", fruits);
+
+```
+
+---
+transition: slide-left
+---
+
+# Implement an array of Class Instances
+
+```js
+class Person {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+
+  greet() {
+    console.log(`Hi, I'm ${this.name}, age ${this.age}`);
+  }
+}
+```
+
+---
+transition: slide-left
+---
+
+# Use Person Class in an array
+
+```js
+// Create an array of Person instances
+const people = [
+  new Person("Alice", 30),
+  new Person("Bob", 25),
+  new Person("Charlie", 40)
+];
+
+// Add a new person
+people.push(new Person("Diana", 35));
+
+// Update an object
+people[1].age = 26;
+
+// Loop through and call a method
+people.forEach(person => person.greet());
+```
+
+---
 layout: image-right
 transition: slide-left
 image: /assets/danny.png
