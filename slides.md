@@ -435,7 +435,7 @@ transition: slide-left
 
 # Bubble Sort
 
-- Try the following sorting algorithm by hand:
+- Try the following sorting algorithm by hand on excalidraw:
 ```js
 // pseudocode
 repeat (n - 1) times:
