@@ -234,7 +234,7 @@ transition: slide-left
   ```
 
 - Q: Given numbers array above, and base address = 2000, what is the address of `array[2]`
-- Q: Note that in C, we have to declare arrays with a predefined length - why?
+- Q: Unlike JS, in C we have to declare arrays with a predefined length - why?
 - Q: How easy/difficult would it be to insert a new element at the beginning of the array?
 
 <!--
