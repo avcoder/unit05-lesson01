@@ -444,8 +444,8 @@ repeat (n - 1) times:
          swap them
 ```
 - Q: After each loop, what "bubbles" to the end of the array?
-- Q: How would you take the above pseudocode and turn it into actual JS code?
 - Q: When I swapped elements, I had to move the image to another spot -- what's the equivalent in code?
+- Q: How would you take the above pseudocode and turn it into actual JS code?
 
 ---
 transition: slide-left
