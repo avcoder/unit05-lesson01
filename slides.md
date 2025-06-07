@@ -425,12 +425,23 @@ A sorting algorithm arranges elements in a particular order (ascending/descendin
    - Optimizing performance in many systems (ex: databases)
 - Common sorting algorithms: Bubble Sort, Merge Sort, Quick Sort, Insertion Sort
 
+- Sort the following array of numbers: https://excalidraw.com/
+<img src="/assets/unsorted.png" width="400">
+- Unlike human eyes/intelligence, what is the only way a computer can "see" an array element's value?
 
 ---
 transition: slide-left
 ---
 
 # Bubble Sort
+
+```js
+// pseudocode
+repeat (n - 1) times:
+   for each pair of adjacent elements:
+      if left > right:
+         swap them
+```
 
 ---
 transition: slide-left
