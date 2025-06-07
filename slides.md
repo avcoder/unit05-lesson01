@@ -335,7 +335,9 @@ transition: slide-left
 | Methods          | ✅ Rich (map, filter, etc.) | ❌ Manual code needed      |
 | Memory layout    | ❌ Abstracted from you      | ✅ You manage it           |
 
-- Given the above, do you think JS' `const data = []` is really an array?
+- Given the above, do you think JS arrays are really an array?
+   - `const people = [] // no predefined size`
+   - `const mixedArray = [42, "hello", true] // various length in bytes for each type` 
 
 
 ---
