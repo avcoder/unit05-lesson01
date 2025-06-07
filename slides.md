@@ -312,9 +312,9 @@ transition: slide-left
 
 - Q: Given numbers array above, and base address = 2000, what is the address of `array[2]`
 - Q: In C we have to declare arrays with a predefined length - why?
-- Q: How would you insert a new element? 
-- Q: Compare C with JS: dynamic size (push/pop)? length? type flexibility? methods (map/filter)? memory mgmt?
 - Q: How would you make a string?
+- Q: What issues might you encounter when trying to insert a new element? 
+- Q: Compare C with JS: dynamic size (push/pop)? length? type flexibility? methods (map/filter)? memory mgmt?
 
 <!--
 - contiguous
