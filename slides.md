@@ -241,10 +241,7 @@ transition: slide-left
 <!--
 - contiguous
 - char str[] = "Hello"; OR
-- char *str = "Hello"; OR
-- char str[6] = { 'H', 'e', 'l', 'l', 'o', '\0' }; OR
-- char *str = malloc(6 * sizeof(char));
-- strcpy(str, "Hello");  // requires #include <string.h>
+- char str[6] = { 'H', 'e', 'l', 'l', 'o', '\0' }; 
 -->
 
 ---
