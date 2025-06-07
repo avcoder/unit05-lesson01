@@ -236,6 +236,7 @@ transition: slide-left
 - Q: Given numbers array above, and base address = 2000, what is the address of `array[2]`
 - Q: Unlike JS, in C we have to declare arrays with a predefined length - why?
 - Q: How would you insert a new element?
+- Q: How would you make an array of characters to represent a string?
 
 <!--
 - contiguous
