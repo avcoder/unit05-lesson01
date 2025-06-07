@@ -378,6 +378,42 @@ transition: slide-left
 transition: slide-left
 ---
 
+# Time Complexity
+
+- Time complexity measures how the runtime of an algorithm grows relative to the size of its input. It gives you a way to estimate how fast or slow your code will run as the input gets larger
+- It’s expressed using Big O notation which focuses on the growth rate, not exact seconds or milliseconds
+
+| Complexity   | Description      | Example Use Case                     |
+| ------------ | ---------------- | ------------------------------------ |
+| `O(1)`       | Constant time    | Accessing an array element: `arr[5]` |
+| `O(log n)`   | Logarithmic time | Binary search                        |
+| `O(n)`       | Linear time      | Loop through array                   |
+| `O(n log n)` | Log-linear       | Efficient sorts (merge, quick sort)  |
+| `O(n²)`      | Quadratic        | Nested loops (e.g., bubble sort)     |
+
+
+---
+transition: slide-left
+---
+
+# Space Complexity
+
+- Space complexity refers to the amount of memory an algorithm uses relative to the input size. - It includes both:
+   - Input space – memory needed to store the input (often not counted separately)
+   - Auxiliary space – extra memory used by the algorithm to solve the problem 
+
+| Code Example                             | Space Complexity | Explanation                     |
+| ---------------------------------------- | ---------------- | ------------------------------- |
+| `int x = 5;`                             | `O(1)`           | Constant space for one variable |
+| `int arr[n];`                            | `O(n)`           | Array grows with input size     |
+| Recursive function with depth `n`        | `O(n)`           | Call stack takes linear space   |
+| Two nested loops that use `n x n` matrix | `O(n²)`          | Storing a 2D matrix             |
+
+
+---
+transition: slide-left
+---
+
 # Sorting
 
 ---
