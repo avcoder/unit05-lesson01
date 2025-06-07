@@ -46,7 +46,7 @@ transition: slide-left
    - What questions might you ask to clarify problem?
    - What steps would you do to find that odd one out?
    - How many steps would you need to solve it?
-- "Big O" Notation: Big O is a way to categorize your algorithm's time or memory requirements based on input.  It is meant to generalize growth of your algorithm.
+
 
 
 ---
@@ -64,7 +64,6 @@ transition: slide-left
    - You'll still need to understand performance by knowing when a search is efficient
    - Plus you often work with data after the db such as combining multiple data sources in the browser 
  - As you build real-time features, personalized recommendations, analytics dashboards, you move beyond CRUD into an area where efficient algorithms matter
-- [Big O cheatsheet](https://www.bigocheatsheet.com/)
 
 ---
 transition: slide-left
@@ -364,6 +363,16 @@ class: text-left
 
 - 🧪 [Enter anonymous lab questions](https://docs.google.com/forms/d/e/1FAIpQLSevvGARdHQikso-uLqFCO481MABKE5HofuSrlzEPMNQ2ZLykw/viewform?usp=dialog)
 - ℹ️ [Course feedback survey](https://circuitstream.typeform.com/to/ZoyYk7px#course_id=SoftwareAN&instructor=9514)
+
+---
+transition: slide-left
+---
+
+# Big O Notation
+
+- "Big O" Notation: Big O is a way to categorize your algorithm's time or memory requirements based on input.  It is meant to generalize growth of your algorithm.
+- [Big O cheatsheet](https://www.bigocheatsheet.com/)
+<img src="/assets/bigo.jpeg" width="500">
 
 ---
 transition: slide-left
