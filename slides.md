@@ -423,9 +423,9 @@ A sorting algorithm arranges elements in a particular order (ascending/descendin
    - Searching quickly (ex: binary search)
    - Data organization (ex: showing search results)
    - Optimizing performance in many systems (ex: databases)
-- Common sorting algorithms: Bubble Sort, Merge Sort, Quick Sort, Insertion Sort
 
-- Sort the following array of numbers: https://excalidraw.com/
+- Sort the following array of numbers: https://excalidraw.com/ 
+  - think Golden Spheres challenge
 <img src="/assets/unsorted.png" width="400">
 - Unlike human eyes/intelligence, what is the only way a computer can "see" an array element's value?
 
