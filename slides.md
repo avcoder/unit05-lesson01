@@ -449,6 +449,7 @@ repeat array.length times:
 - Exercise: Turn above pseudocode into actual JS code
 - Q: What is Big O for bubble sort in terms of time?
    - look for the loops
+   - `(n-1) x (n-1) = ??`
 - Q: What is Big O for bubble sort in terms of space?
    - Does it require extra memory that grows with the size of the input?
 
