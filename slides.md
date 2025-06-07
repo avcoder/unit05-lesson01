@@ -443,6 +443,7 @@ repeat (n - 1) times:
       if left > right:
          swap them
 ```
+
 - Q: After each loop, what "bubbles" to the end of the array?
 - Q: When I swapped elements, I had to move the image to another spot -- what's the equivalent in code?
 - Q: How would you take the above pseudocode and turn it into actual JS code?
