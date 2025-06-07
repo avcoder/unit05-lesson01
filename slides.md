@@ -219,6 +219,33 @@ int main() {
 transition: slide-left
 ---
 
+# Data Structures Overview
+
+- Data structures are organized ways of storing, managing, and accessing data in a computer so it can be used efficiently. They define the layout and behavior of data in memory and provide methods to add, remove, search, or modify data
+
+- Data structures are containers that hold data in a particular format, tailored for specific kinds of operations or problems
+
+- The right data structure makes your program faster and less resource-intensive
+
+---
+transition: slide-left
+---
+
+# Data Structures Overview
+
+| Problem or Use Case                                                     | Ideal Data Structure | Why?                                        |
+| ----------------------------------------------------------------------- | -------------------- | ------------------------------------------- |
+| Storing a fixed list of students                                        | Array                | Fast index-based access                     |
+| Tracking website browsing history                                       | Stack                | LIFO behavior for backtracking              |
+| Managing tasks in a printer queue                                       | Queue                | FIFO order of processing                    |
+| Finding shortest route on a map                                         | Graph + Dijkstra     | Models paths and distances                  |
+| Organizing hierarchical data (e.g. file system, org chart, family tree) | Tree             | Naturally models parent-child relationships |
+
+
+---
+transition: slide-left
+---
+
 # Linear Data Structures
 
 | Data Structure  | Description                                                   | Common Use Cases                        |
