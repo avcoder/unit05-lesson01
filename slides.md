@@ -343,8 +343,8 @@ transition: slide-left
 ---
 layout: image-right
 transition: slide-left
-image: /assets/lydia.png
-backgroundSize: 400px 330px
+image: /assets/danny.png
+backgroundSize: 400px 120px
 class: text-left
 ---
 
