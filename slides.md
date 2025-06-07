@@ -332,7 +332,7 @@ transition: slide-left
 | Dynamic size     | ✅ Yes (`.push`, `.pop`)    | ❌ No (manual memory)      |
 | `.length`        | ✅ Built-in                 | ❌ Must calculate manually |
 | Type flexibility | ✅ Mixed types allowed      | ❌ Fixed type              |
-| Methods          | ✅ Rich (map, filter, etc.) | ❌ Manual code needed      |
+| Methods          | ✅ Rich (filter, sort, slice etc.) | ❌ Manual code needed      |
 | Memory layout    | ❌ Abstracted from you      | ✅ You manage it           |
 
 - Given the above, do you think JS arrays are really an array?
@@ -416,7 +416,15 @@ transition: slide-left
 transition: slide-left
 ---
 
-# Sorting
+# Algorithm: Sorting
+A sorting algorithm arranges elements in a particular order (ascending/descending).
+
+- Sorting is crucial for:
+   - Searching quickly (ex: binary search)
+   - Data organization (ex: showing search results)
+   - Optimizing performance in many systems (ex: databases)
+- Common sorting algorithms: Bubble Sort, Merge Sort, Quick Sort, Insertion Sort
+
 
 ---
 transition: slide-left
