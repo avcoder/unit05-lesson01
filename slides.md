@@ -428,6 +428,7 @@ A sorting algorithm arranges elements in a particular order (ascending/descendin
   - think Golden Spheres challenge
 <img src="/assets/unsorted.png" width="400">
 - Unlike human eyes/intelligence, what is the only way a computer can "see" an array element's value?
+- When I swapped elements, I had to move the image to another spot -- what's the equivalent in code?
 
 ---
 transition: slide-left
@@ -435,6 +436,7 @@ transition: slide-left
 
 # Bubble Sort
 
+- Try the following sorting algorithm by hand:
 ```js
 // pseudocode
 repeat (n - 1) times:
@@ -442,6 +444,9 @@ repeat (n - 1) times:
       if left > right:
          swap them
 ```
+- Q: After each loop, what "bubbles" to the end of the array?
+- Q: How would you take the above pseudocode and turn it into actual JS code?
+
 
 ---
 transition: slide-left
