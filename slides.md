@@ -221,12 +221,9 @@ transition: slide-left
 
 # Data Structures: Arrays
 
-- We are now at a point to talk about our first data structure -- arrays
 - Q: How might an array be naturally arranged in memory blocks?
 - Q: Given the following declaration, how might you locate/arrange this array in memory?
   ```c
-  #include <stdio.h>
-
   int main() {
     int numbers[3] = {10, 20, 30};
     return 0;
@@ -234,15 +231,33 @@ transition: slide-left
   ```
 
 - Q: Given numbers array above, and base address = 2000, what is the address of `array[2]`
-- Q: Unlike JS, in C we have to declare arrays with a predefined length - why?
-- Q: How would you insert a new element?
-- Q: How would you make an array of characters to represent a string?
+- Q: In C we have to declare arrays with a predefined length - why?
+- Q: How would you insert a new element? 
+- Q: Compare C with JS: dynamic size (push/pop)? length? type flexibility? methods (map/filter)? memory mgmt?
+- Q: How would you make a string?
 
 <!--
 - contiguous
 - char str[] = "Hello"; OR
 - char str[6] = { 'H', 'e', 'l', 'l', 'o', '\0' }; 
 -->
+
+---
+transition: slide-left
+---
+
+# JS vs C array comparison
+
+| Feature          | JavaScript                 | C                         |
+| ---------------- | -------------------------- | ------------------------- |
+| Dynamic size     | ✅ Yes (`.push`, `.pop`)    | ❌ No (manual memory)      |
+| `.length`        | ✅ Built-in                 | ❌ Must calculate manually |
+| Type flexibility | ✅ Mixed types allowed      | ❌ Fixed type              |
+| Methods          | ✅ Rich (map, filter, etc.) | ❌ Manual code needed      |
+| Memory layout    | ❌ Abstracted from you      | ✅ You manage it           |
+
+- Given the above, do you think JS' `const data = []` is really an array?
+
 
 ---
 layout: image-right
