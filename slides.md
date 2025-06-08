@@ -233,6 +233,13 @@ int main() {
 transition: slide-left
 ---
 
+# Exercise: Memory Management
+RAM is your canvas; You are the artist; Your brush has the ability to create containers for data
+
+---
+transition: slide-left
+---
+
 # Data Structures Overview
 
 - Data structures are organized ways of storing, managing, and accessing data in a computer so it can be used efficiently. They define the layout and behavior of data in memory and provide methods to add, remove, search, or modify data
