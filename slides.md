@@ -233,7 +233,7 @@ int main() {
 transition: slide-left
 ---
 
-# Bob Ross | Memory Management Artist
+# Memory is Your Canvas | Be Like Bob Ross
 RAM is your canvas; You are the artist; Your brush has the ability to create containers for data
 
 <img src="/assets/datastr.png" width="800">
