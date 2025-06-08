@@ -189,6 +189,30 @@ Given the following memory cell with its address and its corresponding char
 transition: slide-left
 ---
 
+# Renting Lockers
+
+| Analogy             | Computer Concept           |
+| ------------------- | ----------------- |
+| Storage facility    |    |       
+| Front desk          |  |         
+| Lockers             |       |           
+| Locker number (key) |  |  
+| Filling lockers     |     |      
+| Returning lockers   |   |              
+
+<!--
+1. Computer memory; RAM
+2. malloc function; Allocates memory 
+3. Memory cells; Bytes of memory 
+4. Pointer to locker; Returned pointer from `malloc`
+5. Storing values; Dereferencing & assigning
+6. Freeing up space; free(ptr)
+-->
+
+---
+transition: slide-left
+---
+
 # Exercise: Visualizing Memory in C
 
 ```c
