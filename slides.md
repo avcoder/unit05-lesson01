@@ -352,15 +352,20 @@ The heart of learning algorithms and data structures
 transition: slide-left
 ---
 
-# Why learn Algorithms and Data Structures
+# Your Mission:
 
-- Choosing the right data structure
-  - How should the data be organized to allow fast access, insertion, deletion, etc.?
-  - Arrays? Linked lists? Trees? Hash maps?
+- How should data be organized in memory to allow fast access, insertion, deletion, etc.?
+- What steps (algorithm) should we use to solve the problem efficiently?
 
-- Choosing the right algorithm
-  - What steps (process/logic) should we use to solve the problem efficiently?
-  - Sorting? Searching? Traversing a graph?
+| **Operation**       | **What It Means**                              |
+| ------------------- | ---------------------------------------------- |
+| **Creation**        | How much time/memory to set up the structure   |
+| **Insertion**       | How quickly you can add a new item             |
+| **Deletion**        | How quickly you can remove an item             |
+| **Access (Lookup)** | How fast you can retrieve an item by key/index |
+| **Traversal**       | How easily you can move through all items      |
+| **Search**          | How fast you can find if an item exists        |
+
 
 ---
 layout: image-right
