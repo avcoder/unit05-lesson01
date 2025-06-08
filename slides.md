@@ -191,14 +191,14 @@ transition: slide-left
 
 # Memory Management is Like...
 
-| Analogy             | Computer Concept           |
-| ------------------- | ----------------- |
+| Analogy             | Computer Concept  | in C |
+| ------------------- | ----------------- | ---- |
 | Storage facility    | Computer memory; RAM   |       
-| Front desk          | Allocates memory  |         
+| Front desk          | Allocates memory  | malloc function (ex: `ptr = malloc()`) | 
 | Lockers             | Bytes of memory |           
-| Locker number  | Locker address |  
-| Filling lockers     | Storing values    |      
-| Returning lockers   | Freeing up space  |              
+| Locker number  | Locker address |  Returned pointer from `malloc` | 
+| Filling lockers     | Storing values    | Dereferencing and assigning (ex: *ptr = 'a' OR ptr->name) |
+| Returning lockers   | Freeing up space  | `free(ptr)` |
 
 ---
 transition: slide-left
