@@ -298,6 +298,100 @@ transition: slide-left
 transition: slide-left
 ---
 
+# Big O Notation
+
+- "Big O" Notation: Big O is a way to categorize your algorithm's time or memory requirements based on input.  It is meant to generalize growth of your algorithm.
+- [Big O cheatsheet](https://www.bigocheatsheet.com/)
+<img src="/assets/bigo.jpeg" width="500">
+
+---
+transition: slide-left
+---
+
+# Time Complexity
+
+- Time complexity measures how the runtime of an algorithm grows relative to the size of its input. It gives you a way to estimate how fast or slow your code will run as the input gets larger
+- It’s expressed using Big O notation which focuses on the growth rate, not exact seconds or milliseconds
+
+| Complexity   | Description      | Example Use Case                     |
+| ------------ | ---------------- | ------------------------------------ |
+| `O(1)`       | Constant time    | Accessing an array element: `arr[5]` |
+| `O(log n)`   | Logarithmic time | Binary search                        |
+| `O(n)`       | Linear time      | Loop through array                   |
+| `O(n log n)` | Log-linear       | Efficient sorts (merge, quick sort)  |
+| `O(n²)`      | Quadratic        | Nested loops (e.g., bubble sort)     |
+
+
+---
+transition: slide-left
+---
+
+# Space Complexity
+
+- Space complexity refers to the amount of memory an algorithm uses relative to the input size. - It includes both:
+   - Input space – memory needed to store the input (often not counted separately)
+   - Auxiliary space – extra memory used by the algorithm to solve the problem 
+
+| Code Example                             | Space Complexity | Explanation                     |
+| ---------------------------------------- | ---------------- | ------------------------------- |
+| `int x = 5;`                             | `O(1)`           | Constant space for one variable |
+| `int arr[n];`                            | `O(n)`           | Array grows with input size     |
+| Recursive function with depth `n`        | `O(n)`           | Call stack takes linear space   |
+| Two nested loops that use `n x n` matrix | `O(n²)`          | Storing a 2D matrix             |
+
+---
+transition: slide-left
+layout: center
+class: text-center
+---
+
+# Given a problem, find the most efficient way to represent, traverse and manipulate data to solve it?
+The heart of learning algorithms and data structures
+
+---
+transition: slide-left
+---
+
+# Why learn Algorithms and Data Structures
+
+- Choosing the right data structure
+  - How should the data be organized to allow fast access, insertion, deletion, etc.?
+  - Arrays? Linked lists? Trees? Hash maps?
+
+- Choosing the right algorithm
+  - What steps (process/logic) should we use to solve the problem efficiently?
+  - Sorting? Searching? Traversing a graph?
+
+---
+layout: image-right
+transition: slide-left
+image: /assets/danny.png
+backgroundSize: 400px 120px
+class: text-left
+---
+
+# 10 minute break
+
+🍦 Cool Tips, Trends and Resources:
+- 💻 [leetcode](https://leetcode.com/)
+- 🕵️ [hackerrank](https://www.hackerrank.com/)
+- 🚦[codeSignal](https://codesignal.com/)
+- 📡 [interviewBit](https://codesignal.com/)
+- 🏫 [Harvard Algorithms Lecture](https://www.youtube.com/watch?v=iCx3zwK8Ms8)
+- 🏫 [Harvard Data Structures Lecture](https://www.youtube.com/watch?v=0euvEdPwQnQ&list=PLhQjrBD2T381WAHyx1pq-sBfykqMBI7V4&index=6)
+- 🧮 [THE classic CS Textbook](https://edutechlearners.com/download/Introduction_to_algorithms-3rd%20Edition.pdf)
+
+<br>
+<hr>
+<br>
+
+- 🧪 [Enter anonymous lab questions](https://docs.google.com/forms/d/e/1FAIpQLSevvGARdHQikso-uLqFCO481MABKE5HofuSrlzEPMNQ2ZLykw/viewform?usp=dialog)
+- ℹ️ [Course feedback survey](https://circuitstream.typeform.com/to/ZoyYk7px#course_id=SoftwareAN&instructor=9514)
+
+---
+transition: slide-left
+---
+
 # Data Structures: Arrays
 
 - Q: How might an array be naturally arranged in memory blocks?
@@ -403,77 +497,6 @@ people[1].age = 26;
 // Loop through and call a method
 people.forEach(person => person.greet());
 ```
-
----
-layout: image-right
-transition: slide-left
-image: /assets/danny.png
-backgroundSize: 400px 120px
-class: text-left
----
-
-# 10 minute break
-
-🍦 Cool Tips, Trends and Resources:
-- 💻 [leetcode](https://leetcode.com/)
-- 🕵️ [hackerrank](https://www.hackerrank.com/)
-- 🚦[codeSignal](https://codesignal.com/)
-- 📡 [interviewBit](https://codesignal.com/)
-- 🏫 [Harvard Algorithms Lecture](https://www.youtube.com/watch?v=iCx3zwK8Ms8)
-- 🏫 [Harvard Data Structures Lecture](https://www.youtube.com/watch?v=0euvEdPwQnQ&list=PLhQjrBD2T381WAHyx1pq-sBfykqMBI7V4&index=6)
-- 🧮 [THE classic CS Textbook](https://edutechlearners.com/download/Introduction_to_algorithms-3rd%20Edition.pdf)
-
-<br>
-<hr>
-<br>
-
-- 🧪 [Enter anonymous lab questions](https://docs.google.com/forms/d/e/1FAIpQLSevvGARdHQikso-uLqFCO481MABKE5HofuSrlzEPMNQ2ZLykw/viewform?usp=dialog)
-- ℹ️ [Course feedback survey](https://circuitstream.typeform.com/to/ZoyYk7px#course_id=SoftwareAN&instructor=9514)
-
----
-transition: slide-left
----
-
-# Big O Notation
-
-- "Big O" Notation: Big O is a way to categorize your algorithm's time or memory requirements based on input.  It is meant to generalize growth of your algorithm.
-- [Big O cheatsheet](https://www.bigocheatsheet.com/)
-<img src="/assets/bigo.jpeg" width="500">
-
----
-transition: slide-left
----
-
-# Time Complexity
-
-- Time complexity measures how the runtime of an algorithm grows relative to the size of its input. It gives you a way to estimate how fast or slow your code will run as the input gets larger
-- It’s expressed using Big O notation which focuses on the growth rate, not exact seconds or milliseconds
-
-| Complexity   | Description      | Example Use Case                     |
-| ------------ | ---------------- | ------------------------------------ |
-| `O(1)`       | Constant time    | Accessing an array element: `arr[5]` |
-| `O(log n)`   | Logarithmic time | Binary search                        |
-| `O(n)`       | Linear time      | Loop through array                   |
-| `O(n log n)` | Log-linear       | Efficient sorts (merge, quick sort)  |
-| `O(n²)`      | Quadratic        | Nested loops (e.g., bubble sort)     |
-
-
----
-transition: slide-left
----
-
-# Space Complexity
-
-- Space complexity refers to the amount of memory an algorithm uses relative to the input size. - It includes both:
-   - Input space – memory needed to store the input (often not counted separately)
-   - Auxiliary space – extra memory used by the algorithm to solve the problem 
-
-| Code Example                             | Space Complexity | Explanation                     |
-| ---------------------------------------- | ---------------- | ------------------------------- |
-| `int x = 5;`                             | `O(1)`           | Constant space for one variable |
-| `int arr[n];`                            | `O(n)`           | Array grows with input size     |
-| Recursive function with depth `n`        | `O(n)`           | Call stack takes linear space   |
-| Two nested loops that use `n x n` matrix | `O(n²)`          | Storing a 2D matrix             |
 
 
 ---
