@@ -189,7 +189,7 @@ Given the following memory cell with its address and its corresponding char
 transition: slide-left
 ---
 
-# Renting Lockers
+# Memory Management is Like...
 
 | Analogy             | Computer Concept           |
 | ------------------- | ----------------- |
